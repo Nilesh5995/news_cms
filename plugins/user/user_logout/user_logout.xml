@@ -1,0 +1,12 @@
+<? xml version="1.0" encoding="utf-8"?>
+<extension version="3.x.x" type="plugin" group="user">
+ <name>user_logout</name>
+ <creationDate>Nov 10th, 2017</creationDate>
+ <copyright>TechJoomla</copyright>
+ <version>1.0</version>
+ <description>Simple showing the user information!!</description>
+ <files>
+ <filename plugin="user_logout">user_logout.php</filename>
+ <filename>index.html</filename>
+ </files>
+</extension>

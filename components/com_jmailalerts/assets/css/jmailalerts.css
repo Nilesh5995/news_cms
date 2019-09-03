@@ -1,0 +1,115 @@
+.main{padding: 5px;}
+
+.clear{clear: both;}
+
+div.box-container-t {
+	padding: 0 10px;
+	position: relative;
+}
+
+div.box-tl {
+	background: transparent url(../images/module_rounded_tl.png) no-repeat scroll 0 0;
+	height: 10px;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 10px;
+}
+
+div.box-tr {
+	background: transparent url(../images/module_rounded_tr.png) no-repeat	scroll 0 0;
+	height: 10px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 10px;
+}
+
+div.box-t {
+	background: #FFFFFF none repeat scroll 0 0;
+	border-top: 1px solid #DCDCDC;
+	height: 9px;
+}
+
+/* rounded mid start here */
+div.content_cover {
+	background: #F0F0F0 url(../images/module_rounded_bg.png) repeat-x scroll 0 0;
+	border-left: 1px solid #DCDCDC;
+	border-right: 1px solid #DCDCDC;
+	overflow: hidden;
+	padding: 0 10px;
+}
+
+div.content_cover div.header {
+	font-size: 150%;
+	letter-spacing: -1px;
+	margin: 0 0 5px;
+	font-weight: bold;
+}
+
+/* rounded bottom start here */
+div.content_bottom {
+	padding: 0 10px;
+	position: relative;
+}
+
+div.content_bottom div.box-b {
+	background: #F0F0F0 none repeat scroll 0 0;
+	border-bottom: 1px solid #DCDCDC;
+	height: 9px;
+}
+
+div.content_bottom div.box-bl {
+	background: transparent url(../images/module_rounded_bl.png) no-repeat	scroll 0 0;
+	height: 10px;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 10px;
+}
+
+div.content_bottom div.box-br {
+	background: transparent url(../images/module_rounded_br.png) no-repeat scroll 0 0;
+	height: 10px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 10px;
+}
+
+div.inner_left img {
+	padding: 3px;
+	border: solid 1px #DCDCDC;
+}
+
+div.jmail-blocks {
+	margin-bottom: 15px;
+	margin-top:5px;
+}
+
+div.jmail-blocks h4.jma_alert {
+	margin: 0px;
+}
+
+div.jmail-expands {
+	/*border-top: solid 1px #DCDCDC;*/
+	padding: 0px;
+}
+/*added in 2.4.3*/
+.subscribed_alert{color:green;}
+.unsubscribed_alert{color:#135CAE;}
+.sub_status_msg{font-size:10px;}
+.alert_frequncy{float:left; width:500px;margin:5px;}
+.jma_alert_desc{margin:5px;}
+/*added in 2.4.5*/
+#community-wrap {margin: 0!important;padding: 0!important; min-height: 45px !important; min-width: 500px!important;}
+#community-wrap ul {margin: 0;padding: 0;}
+.jma_table{border:0;width:100%;}
+.jma_table tr, td { border: 0 !important;}
+.jma_plugin_background{background-color:#ffffff !important;}
+/*Since 2.5.3*/
+/*Override for checkbox style for select alert and plugins checkboxes*/
+#jmailalerts-emails input[type="radio"], input[type="checkbox"] {
+margin:0px !important;
+}
+.jma_email_intro{padding-top:7px;}

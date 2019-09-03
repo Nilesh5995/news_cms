@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.x.x" type="plugin" group="content">
+ <name>content_helloworld</name>
+ <creationDate>Nov 10th, 2017</creationDate>
+ <copyright>TechJoomla</copyright>
+ <version>1.0</version>
+ <description>Simple Hello World Plugin !!</description>
+ <files>
+ <filename plugin="helloworld">helloworld.php</filename>
+ <filename>index.html</filename>
+ </files>
+</extension>
+
+<!-- <?xml version="1.0" encoding="utf-8" ?>
+<extension version="3.9.10" type="plugin" group="content">
+	<name>plg_content_helloworld</name>
+	<creationDate>Aug 06 ,2019</creationDate>
+	<copyright>Techjoomla</copyright>
+	<version>1.0</version>
+	<description>Simple hello world plugin</description>
+	<files>
+		<filename plugin="helloworld">helloworld.php</filename>
+		<filename>index.html</filename>
+	</files>
+</extension> -->

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="2.5" method="upgrade">
+
+	<name>mod_pro_complete</name>
+
+	<version>2.5</version>
+	<author>Techjoomla</author>
+	<authorEmail>extensions@techjoomla.com</authorEmail>
+	<authorUrl>http://www.techjoomla.com</authorUrl>
+	<creationDate>10th Apr 2013</creationDate>
+	<copyright>(c) Techjoomla</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+
+	<description>MOD_PRO_COMPLETE_DESCRIPTION</description>
+
+	<files>
+		<filename module="mod_pro_complete">mod_pro_complete.php</filename>
+		<filename>helper.php</filename>
+		<filename>index.html</filename>
+		<folder>tmpl</folder>
+		<folder>element</folder>
+		<folder>assets</folder>
+	</files>
+
+	<languages folder="language/en-GB">
+		<!-- Any language files included with the module -->
+		<language tag="en-GB">en-GB.mod_pro_complete.ini</language>
+		<language tag="en-GB">en-GB.mod_pro_complete.sys.ini</language>
+	</languages>
+
+	<config>
+		<fields name="params">
+			<fieldset name="basic" addfieldpath="/modules/mod_pro_complete/element/16">
+				<field name="profiletype" type="radio" class="btn-group" default="js" label="MOD_PRO_COMPLETE_PROFILE_TYPE" description="MOD_PRO_COMPLETE_PROFILE_TYPE_DESC">
+					<option value="cb">MOD_PRO_COMPLETE_CB</option>
+					<option value="js">MOD_PRO_COMPLETE_JS</option>
+				</field>
+				<field name="js_fields" type="jsfields" default="" label="MOD_PRO_COMPLETE_SELECT_FIELDS_LBL" description="MOD_PRO_COMPLETE_SELECT_FIELDS_DESC" multiple="multiple" />
+				<field name="cb_fields" type="cbfields" default="" label="MOD_PRO_COMPLETE_SELECT_CBFIELDS_LBL" description="MOD_PRO_COMPLETE_SELECT_CBFIELDS_DESC" multiple="multiple" />
+				<field name="name" type="radio" class="btn-group" default="1" label="MOD_PRO_COMPLETE_NAME_LBL" description="MOD_PRO_COMPLETE_NAME_DESC">
+					<option value="0">MOD_PRO_COMPLETE_HIDE</option>
+					<option value="1">MOD_PRO_COMPLETE_SHOW</option>
+				</field>
+				<field name="bars" type="radio" class="btn-group" default="both" label="MOD_PRO_COMPLETE_PROFILE_BAR_LBL" description="MOD_PRO_COMPLETE_PROFILE_BAR_DESC">
+					<option value="bar">MOD_PRO_COMPLETE_BAR</option>
+					<option value="numeric">MOD_PRO_COMPLETE_NUMERIC</option>
+					<option value="both">MOD_PRO_COMPLETE_BOTH</option>
+				</field>
+				<field name="image" type="radio" class="btn-group" default="1" label="MOD_PRO_COMPLETE_IMAGE_LBL" description="MOD_PRO_COMPLETE_IMAGE_DESC">
+					<option value="0">MOD_PRO_COMPLETE_HIDE</option>
+					<option value="1">MOD_PRO_COMPLETE_SHOW</option>
+				</field>
+				<field name="complete" type="radio" class="btn-group" default="1" label="MOD_PRO_COMPLETE_WHEN_COMPLETE" description="MOD_PRO_COMPLETE_WHEN_COMPLETE_DESC">
+					<option value="0">MOD_PRO_COMPLETE_HIDE</option>
+					<option value="1">MOD_PRO_COMPLETE_SHOW</option>
+				</field>
+				<field name="tooltipfield" type="radio" class="btn-group" default="1" label="MOD_PRO_COMPLETE_TOOLTIP_FIELD_LBL" description="MOD_PRO_COMPLETE_TOOLTIP_FIELD_DESC">
+					<option value="0">MOD_PRO_COMPLETE_HIDE</option>
+					<option value="1">MOD_PRO_COMPLETE_SHOW</option>
+				</field>
+			</fieldset>
+		</fields>
+	</config>
+
+</extension>

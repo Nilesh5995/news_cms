@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<extension type="package" version="3.9" method="upgrade">
+	<name>English Australian Language Pack</name>
+	<packagename>en-AU</packagename>
+	<version>3.9.10.1</version>
+	<creationDate>July 2019</creationDate>
+	<author>stevec4</author>
+	<authorEmail>stevec4@comcast.net</authorEmail>
+	<authorUrl>www.joomla.org</authorUrl>
+	<copyright>Copyright (C) 2005 - 2019 Open Source Matters. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+
+<description>Joomla! 3.9.10.1 English (Australia) Language Package</description>
+<blockChildUninstall>true</blockChildUninstall>
+<files>
+        <file type="language" client="administrator" id="en-AU">admin_en-AU.zip</file>
+        <file type="language" client="site" id="en-AU">site_en-AU.zip</file>
+</files>
+<updateservers>
+        <server type="collection" priority="1" name="Accredited Joomla! Translations">https://update.joomla.org/language/translationlist_3.xml</server>
+    </updateservers>
+</extension>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.x.x" type="plugin" group="content">
+ <name>languageflag</name>
+ <creationDate>Nov 10th, 2017</creationDate>
+ <copyright>TechJoomla</copyright>
+ <version>1.0</version>
+ <description>showing the language flag!!</description>
+ <files>
+ <filename plugin="languageflag">languageflag.php</filename>
+ <filename>index.html</filename>
+ </files>
+</extension>

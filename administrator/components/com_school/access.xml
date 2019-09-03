@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<access component="com_school">
+	<section name="component">
+		<!-- <action name="core.admin" title="JACTION_ADMIN" description="JACTION_ADMIN_COMPONENT_DESC" />
+		<action name="core.manage" title="JACTION_MANAGE" description="JACTION_MANAGE_COMPONENT_DESC" />
+		<action name="core.create" title="JACTION_CREATE" description="JACTION_CREATE_COMPONENT_DESC" />
+		<action name="core.delete" title="JACTION_DELETE" description="JACTION_DELETE_COMPONENT_DESC" />
+		<action name="core.edit" title="JACTION_EDIT" description="JACTION_EDIT_COMPONENT_DESC" />
+		<action name="core.edit.state" title="JACTION_EDITSTATE" description="JACTION_EDITSTATE_COMPONENT_DESC" />
+		<action name="core.edit.own" title="JACTION_EDITOWN" description="JACTION_EDITOWN_COMPONENT_DESC" /> -->
+
+		<action name="teacher.admin" title="JACTION_TEACHER_ADMIN" description="JACTION_TEACHER_ADMIN_COMPONENT_DESC" />
+		<action name="teacher.manage" title="JACTION_TEACHER_MANAGE" description="JACTION_TEACHER_MANAGE_COMPONENT_DESC" />
+		<action name="teacher.create" title="JACTION_TEACHER_CREATE" description="JACTION_TEACHER_CREATE_COMPONENT_DESC" />
+		<action name="teacher.delete" title="JACTION_TEACHER_DELETE" description="JACTION_TEACHER_DELETE_COMPONENT_DESC" />
+		<action name="teacher.edit" title="JACTION_TEACHER_EDIT" description="JACTION_EDIT_COMPONENT_DESC" />
+		<!-- <action name="teacher.edit.state" title="JACTION_EDITSTATE" description="JACTION_EDITSTATE_COMPONENT_DESC" />
+		<action name="teacher.edit.own" title="JACTION_TEACHER_EDITOWN" description="JACTION_EDITOWN_COMPONENT_DESC" /> -->
+
+		<action name="student.admin" title="JACTION_STUDENT_ADMIN" description="JACTION_STUDENT_ADMIN_COMPONENT_DESC" />
+		<action name="student.manage" title="JACTION_STUDENT_MANAGE" description="JACTION_STUDENT_MANAGE_COMPONENT_DESC" />
+		<action name="student.create" title="JACTION_STUDENT_CREATE" description="JACTION_STUDENT_CREATE_COMPONENT_DESC" />
+		<action name="student.delete" title="JACTION_STUDENT_DELETE" description="JACTION_STUDENT_DELETE_COMPONENT_DESC" />
+		<action name="student.edit" title="JACTION_STUDENT_EDIT" description="JACTION_STUDENT_EDIT_COMPONENT_DESC" />
+		<!-- <action name="student.edit.state" title="JACTION_EDITSTATE" description="JACTION_EDITSTATE_COMPONENT_DESC" />
+		<action name="student.edit.own" title="JACTION_STUDENT_EDITOWN" description="JACTION_EDITOWN_COMPONENT_DESC" /> -->
+
+
+	</section>
+	
+	
+</access>

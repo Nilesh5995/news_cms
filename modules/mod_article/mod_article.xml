@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type = "module" version = "3.9.10" client = "site" method="upgrade">
+
+	<name>Article title</name>
+	<author>Admin</author>
+	<version>1.0.0</version>
+	<description>Create module which shows article title with the language flag (Language in which article is created)</description>
+
+	<files>
+		<filename>mod_article.xml</filename>
+		<filename module = "mod_article">mod_article.php</filename>
+		<filename>index.html</filename>
+		<filename>helper.php</filename>
+		<filename>tmpl/default.php</filename>
+		<filename>tmpl/default1.php</filename>
+		<filename>tmpl/index.html</filename>
+	</files>
+
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field
+					name="position"
+					type="list"
+					label="set the position"
+					default="left"
+					>
+					<option value="left">Left</option>
+					<option value="right">Right</option>
+				</field>
+			</fieldset>
+		</fields>
+	</config>
+
+</extension>

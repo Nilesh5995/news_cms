@@ -1,0 +1,1 @@
+<?php echo "admin site student management system";?>

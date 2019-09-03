@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fieldset
+				name="details"
+				label="COM_HELLOWORLD_STUDENT_DETAILS"
+	>
+		<field
+				name="id"
+				type="hidden"
+				/>
+		<field
+				name="fname"
+				type="text"
+				label="COM_HELLOWORLD_HELLOWORLD_FNAME_LABEL"
+				description="COM_HELLOWORLD_HELLOWORLD_FNAME_DESC"
+				size="40"
+				class="inputbox"
+				required="true"
+				default=""
+				/>
+		<field
+				name="mname"
+				type="text"
+				label="COM_HELLOWORLD_HELLOWORLD_MNAME_LABEL"
+				description="COM_HELLOWORLD_HELLOWORLD_MNAME_DESC"
+				size="40"
+				class="inputbox"
+				required="true"
+				default=""
+				/>
+		<field
+				name="lname"
+				type="text"
+				label="COM_HELLOWORLD_HELLOWORLD_LNAME_LABEL"
+				description="COM_HELLOWORLD_HELLOWORLD_LNAME_DESC"
+				size="40"
+				class="inputbox"
+				required="true"
+				default=""
+				/>
+		
+		<field
+				name="class"
+				type="text"
+				label="COM_HELLOWORLD_HELLOWORLD_CLASS_LABEL"
+				description="COM_HELLOWORLD_HELLOWORLD_CLASS_DESC"
+				size="50"
+				class="inputbox"
+				required="true"
+			/>
+		<field
+				name="address"
+				type="text"
+				label="COM_HELLOWORLD_SCHOOL_ADDRESS_LABEL"
+				description="COM_SCHOOL_SCHOOL_CITY_DESC"
+				size="40"
+				class="inputbox"
+			/>
+		<field
+				name="city"
+				type="text"
+				label="COM_HELLOWORLD_HELLOWORLD_CITY_LABEL"
+				description="COM_HELLOWORLD_HELLOWORLD_CITY_DESC"
+				size="40"
+				class="inputbox"
+			/>
+		<field
+				name="state"
+				type="text"
+				label="COM_HELLOWORLD_HELLOWORLD_STATE_LABEL"
+				description="COM_HELLOWORLD_HELLOWORLD_STATE_DESC"
+				size="40"
+				class="inputbox"
+			/>
+
+		<field
+				name="pincode"
+				type="number"
+				label="COM_HELLOWORLD_HELLOWORLD_PINCODE_LABEL"
+				description="COM_HELLOWORLD_HELLOWORLD_PINCODE_DESC"
+				size="40"
+				class="inputbox"
+			/>
+		
+		<field
+				name="pmo"
+				type="number"
+				label="COM_HELLOWORLD_HELLOWORLD_PARANT_MOBILE_LABEL"
+				description="COM_HELLOWORLD_HELLOWORLD_PARANT_MOBILE_DESC"
+				class="inputbox"
+				required="true"
+				/>
+
+	</fieldset>
+	<fields name="imageinfo">
+		<fieldset
+			name="image-info"
+			label="COM_HELLOWORLD_IMAGE_FIELDS"
+		>
+			<field
+				name="image"
+				type="media"
+				preview="tooltip"
+				label="COM_HELLOWORLD_HELLOWORLD_FIELD_IMAGE_LABEL"
+				description="COM_HELLOWORLD_HELLOWORLD_FIELD_IMAGE_DESC" />
+		</fieldset>
+	</fields>
+	<fieldset
+			name="personal"
+			label="COM_HELLOWORLD_PERSONAL"
+	>
+			<field
+				name="Blood_group"
+				type="text"
+				label="COM_HELLOWORLD_HELLOWORLD_BLOUD_GROUP_LABEL"
+				description="COM_HELLOWORLD_HELLOWORLD_BLOUD_GROUP_DESC"
+				size="50"
+				class="inputbox"
+				required="true"
+			>
+				<option value="">SELECT_BLLOD_GROUP</option>
+				<option value="A+">APOSITIVE</option>
+				<option value="A-">ANEGATIVE</option>
+				<option value="B+">BPOSITIVE</option>
+				<option value="B-">BNEGATIVE</option>
+				<option value="AB+">ABPOSITIVE</option>
+				<option value="AB-">ABNEGATIVE</option>
+				<option value="O+">OPOSITIVE</option>
+				<option value="O-">ONEGATIVE</option>
+			</field>
+			<field 
+				name="dob" 
+				type="calendar" 
+				default="2017-05-15" 
+				label="COM_HELLOWORLD_HELLOWORLD_DOB_LABEL" 
+				description="COM_HELLOWORLD_HELLOWORLD_DOB_DESC"
+				class="input-medium" 
+				required="true" 
+				filter="user_utc" 
+				format="%Y-%m-%d %H:%M:%S"
+				singleheader="true" 
+				showtime="true" 
+				timeformat="12" 
+				todaybutton="true" 
+				weeknumbers="true"
+				filltable="true" 
+				minyear="-3" 
+				maxyear="5" 
+			/>
+    </fieldset>
+</form>

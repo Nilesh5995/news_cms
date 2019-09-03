@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fieldset name="general_settings" addfieldpath="/administrator/components/com_jmailalerts/models/fields">
+		<field name="id" type="text" default="0" label="COM_JMAILALERTS_FORM_LBL_SUBSCRIBER_ID" readonly="true" class="readonly" description="JGLOBAL_FIELD_ID_DESC" />
+		<field name="user_id" type="text" size="40" class="inputbox" label="COM_JMAILALERTS_FORM_LBL_SUBSCRIBER_USER_ID" description="COM_JMAILALERTS_FORM_DESC_SUBSCRIBER_USER_ID" required="true" filter="safehtml" />
+		<field name="alert_id" type="customfield" label="COM_JMAILALERTS_FORM_LBL_SUBSCRIBER_ALERT_ID" description="COM_JMAILALERTS_FORM_DESC_SUBSCRIBER_ALERT_ID" filter="raw" multiple="false" />
+		<field name="filter_alert_id" type="list" onchange="this.form.submit();">
+			<option value="">COM_JMAILALERTS_SUBSCRIBERS_ALERT_ID_FILTER</option>
+			<option value="1">Daily</option>
+			<option value="7">Weekly</option>
+		</field>
+		<field name="name" type="text" label="COM_JMAILALERTS_FORM_LBL_SUBSCRIBER_NAME" description="COM_JMAILALERTS_FORM_DESC_SUBSCRIBER_NAME" required="true" filter="string" maxlength="255" />
+		<field name="email_id" type="text" label="COM_JMAILALERTS_FORM_LBL_SUBSCRIBER_EMAIL_ID" description="COM_JMAILALERTS_FORM_DESC_SUBSCRIBER_EMAIL_ID" required="true" filter="raw" maxlength="255" />
+		<field name="frequency" type="customfield" label="COM_JMAILALERTS_FORM_LBL_SUBSCRIBER_FREQUENCY" description="COM_JMAILALERTS_FORM_DESC_SUBSCRIBER_FREQUENCY" filter="raw" />
+		<field name="date" type="calendar" class="inputbox" default="0000-00-00 00:00:00" label="COM_JMAILALERTS_FORM_LBL_SUBSCRIBER_DATE" description="COM_JMAILALERTS_FORM_DESC_SUBSCRIBER_DATE" filter="safehtml" />
+		<field name="plugins_subscribed_to" type="textarea" label="COM_JMAILALERTS_FORM_LBL_SUBSCRIBER_PLUGINS_SUBSCRIBED_TO" description="COM_JMAILALERTS_FORM_DESC_SUBSCRIBER_PLUGINS_SUBSCRIBED_TO" cols="100" rows="8" filter="raw" />
+		<field name="state" type="list" label="JSTATUS" description="JFIELD_PUBLISHED_DESC" class="inputbox" size="1" default="1">
+			<option value="1">JPUBLISHED</option>
+			<option value="0">JUNPUBLISHED</option>
+		</field>
+	</fieldset>
+</form>
